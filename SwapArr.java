@@ -34,7 +34,7 @@ public class SwapArr {
         System.out.println("bNum2:");
         for(int i=0; i<bNum2.length; i++){System.out.println(bNum2[i]);}
         System.out.println();
-        //start swap array within aNum2:
+        //initialize variables for swapping values between 2 arrays:
         int[] tmparrval=new int[aNum2.length];//assume both array's length are the same before use this method
         int lowindex2=0;
         int highindex2=aNum2.length-1;
